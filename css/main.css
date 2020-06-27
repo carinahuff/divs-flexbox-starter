@@ -106,11 +106,46 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
-  padding: 2em;
+  padding: 0 2em;
   font-size: 1em;
   height: 100%;
-  
+ 
+}
 
+h1,
+footer {
+
+    background-color: blueviolet;
+    height: 80px;
+    width: 100%
+}
+h1{
+    margin-bottom: 0;
+    font-size: 3em;
+    color: yellowgreen; 
+
+}
+
+footer{
+  color: yellowgreen; 
+}
+
+
+main {
+    background: url(../img/underwater.jpg) no-repeat center fixed;
+    height: 280px;
+    width: 100%;
+    color: yellowgreen;
+    
+}
+
+h1,
+footer,
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3em;
 }
 
 .wrapper {
@@ -119,27 +154,22 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .div-1, .div-2, .div-3 {
   /*give the divs a width of 30%, add display:flex, set justify-content and align-items to center*/
   color: #fff;
-  line-height: 1.2em;
-  font-size: 1em;
-  padding: 2em;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  padding: 1.2em;
   background-color: #1a95a5;
-  height: 300px;
+  height: 270px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
-  flex-basis: auto;
-}
-
-/* .div-2{ */
-  /* background-color: #999;  */
-/* } */
-
+ 
 
 
 
